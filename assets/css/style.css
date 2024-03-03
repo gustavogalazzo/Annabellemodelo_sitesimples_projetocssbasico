@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+body{
+  background: url(../imagens/fundo.png);
+}
+
+header, main, footer{
+  width: 900px;
+}
+
+.box{
+  width: 900px;
+  background-color: #d2d2c0;
+  padding: 15px;
+}
+
+.box nav{
+  position: relative;
+}
+
+.box nav li{
+  display: inline-block;
+  margin: 15px;
+}
+
+.box nav a {
+  text-transform: uppercase;
+  color: #3a5c9ba3;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.container{
+  background-color: whitesmoke;
+  padding: 10px 10px 10px;
+}
+
+.container h1{
+  color: rgb(178, 171, 159);
+  text-transform: uppercase;
+}
+
+.container img{
+  border: 10px solid #d2d2c0;
+  margin: auto;
+  display: block;
+}
+
+footer{
+  font-weight: bold;
+  text-align: center;
+}
